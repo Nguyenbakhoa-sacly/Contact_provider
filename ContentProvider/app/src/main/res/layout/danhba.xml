@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#FF5722"
+        android:background="#8BC34A"
+        android:textSize="50dp"
+        android:layout_height="wrap_content"
+        android:text="Danh Bạ"
+        android:textAlignment="center" />
+    <ListView
+        android:id="@+id/lvDanhBa"
+        android:layout_width="409dp"
+        android:divider="#FF9800"
+        android:dividerHeight="2dp"
+        android:listSelector="#E1E0DF"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+</LinearLayout>
